@@ -3,7 +3,7 @@
    float:left; 
    border:1px solid #FFF;
    margin: 0px;
-   padding: 0;
+   padding: 0 16px;
    width: 330px;
    height: 894px;
    color: rgb(255, 255, 255);
@@ -12,7 +12,7 @@
 
 .botao{
  
-   width:324px;
+   width:304px;
    margin-left: 40px;
    margin: 3px;
 }
