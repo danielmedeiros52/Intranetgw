@@ -1,0 +1,24 @@
+.menu{
+    background:rgb(255, 255, 255); 
+   float:left; 
+   border:1px solid #FFF;
+   margin: 0px;
+   padding: 0;
+   width: 330px;
+   height: 894px;
+   color: rgb(255, 255, 255);
+   box-shadow: 3px 0px 3px 0px rgba(0,0,0,0.2);
+}
+
+.botao{
+ 
+   width:324px;
+   margin-left: 40px;
+   margin: 3px;
+}
+
+
+.primeiro{
+margin-top:10px;
+}
+
