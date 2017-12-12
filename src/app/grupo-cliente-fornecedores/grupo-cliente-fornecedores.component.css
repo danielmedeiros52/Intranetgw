@@ -1,13 +1,15 @@
 .meio{
 
-width: 100%;
-padding-left: 500px;
-padding-top: 20px;
+height: 630px;
+width: 860px;
 box-shadow: 3px 0px 3px 0px rgba(0,0,0,0.2);
+position: absolute;
+left: 25%;
+
+ 
 }
 
 .text{
-padding-left: 400px;
 
 
 }
