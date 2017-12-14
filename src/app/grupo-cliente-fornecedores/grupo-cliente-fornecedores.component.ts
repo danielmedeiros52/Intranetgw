@@ -7,6 +7,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GrupoClienteFornecedoresComponent implements OnInit {
 
+
+  contain(content){
+    if(content.value=='use'){
+    content.value=false
+    alert("lindo")
+    return true 
+    }
+ 
+  else{
+    content.value=true
+    return false
+  } 
+  }
+
+
+
+
+
   constructor() { }
 
   ngOnInit() {

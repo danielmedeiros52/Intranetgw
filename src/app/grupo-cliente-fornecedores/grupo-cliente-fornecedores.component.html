@@ -3,22 +3,22 @@
   <div class="col s12 m6">
     <div class="card blue-grey lighten-5  meio">
       <div class="card-content black-text">
-        <span class="card-title">
+        <span class="card-title" >
           Grupo de Clientes / Fornecedores
         </span>
-        <div class="text">
-          <p>
+        <div class="text"#content (click)='contain(content)'>
+          <p *ngIf="content">
             O cadastro de Grupo de Clientes / Fornecedores é feito para ajudar o usuario na hora de tirar relatorios e faturar, o usuario
             precisa apenas escolher o grupo desejado no filtro de relatorio ou de faturamento.
             Para o usuario ultilizar o grupo ele precisa colocar o grupo no cadastro do cliente.
           </p>
           <br>
         </div>
-        <div class="card-action ">
-            <a href="#">Onde coloco o grupo de cliente / fornecedores ?</a>
+        <div class="card-action" (click)="contain(content)">
+            <a >Onde coloco o grupo de cliente / fornecedores ?</a>
           </div>
-        <div class="card-action">
-            <a href="#">Onde coloco o grupo de cliente / fornecedores ?</a>
+        <div class="card-action"(click)="contain(content)">
+            <a>Onde coloco o grupo de cliente / fornecedores ?</a>
           </div>
       </div>
     </div>
