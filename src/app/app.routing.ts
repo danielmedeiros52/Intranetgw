@@ -5,7 +5,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 
 
-const ACHEI_ROUTES: Routes = [
+const INTRANET_ROUTES: Routes = [
     {
         path:'',
         component: NavBarComponent,
@@ -20,4 +20,4 @@ const ACHEI_ROUTES: Routes = [
     }
 ];
 
-export const routing: ModuleWithProviders = RouterModule.forRoot(ACHEI_ROUTES);
+export const routing: ModuleWithProviders = RouterModule.forRoot(INTRANET_ROUTES);
