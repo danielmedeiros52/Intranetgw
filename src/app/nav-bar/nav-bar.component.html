@@ -5,7 +5,7 @@
     <img src="http://gwsistemas.com.br/images/logo_white.png"class="responsive-img"></a>
     <ul id="nav-mobile" class="left hide-on-med-and-down">
       <li>
-        <a  id='cadastros'#cadastro (click)='clicou2(cadastro)'>Cadastros</a>
+        <a  id='cadastros'#cadastro (click)='teste()'>Cadastros</a>
       </li>
       <li>
         <a >Lancamentos</a>
@@ -19,7 +19,7 @@
 
 
 <!-- Parte lateral do menu, na tela o conteudo deste menu dependerá do navbar. -->
-<div class='menu' *ngIf="cadastro.value">
+<div class='menu'[@sidenav]='state'>
   <div>
     <a class="waves-effect waves-light btn blue darken-2 botao z-depth-3 primeiro" id="financeiro">Financeiro</a>
   </div>

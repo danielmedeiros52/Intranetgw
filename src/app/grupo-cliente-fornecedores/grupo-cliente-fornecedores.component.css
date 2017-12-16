@@ -1,15 +1,22 @@
 .meio{
 
 height: 630px;
-width: 860px;
-box-shadow: 3px 0px 3px 0px rgba(0,0,0,0.2);
+width: 880px;
+/* box-shadow: 3px 0px 3px 0px rgba(0,0,0,0.2); */
 position: absolute;
 left: 25%;
 
- 
+
 }
 
 a{
-cursor: pointer;
-
+    cursor: pointer;
+    font-style:italic;
+    font: bold;
+    
+}
+.table-custom{
+    overflow-y: auto;
+    height:500px;
+    width: 800px;
 }
