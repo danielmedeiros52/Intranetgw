@@ -1,5 +1,5 @@
 <app-nav-bar></app-nav-bar>
-<div class=" row " (onload)='teste()'>
+<div class=" row " [@dropdowngp]="content.length">
 
   <div class="col s12 m6">
     
@@ -16,9 +16,9 @@
             precisa apenas escolher o grupo desejado no filtro de relatorio ou de faturamento. Para o usuario ultilizar o
             grupo ele precisa colocar o grupo no cadastro do cliente.
           </p>
-          <ng-template #content>
+          <ng-template #content >
             <div class="table-custom">
-              <table class="responsive-table striped bordered">
+              <table class="responsive-table striped bordered" >
                 <thead>
                   <tr>
                     <th>Tela</th>
