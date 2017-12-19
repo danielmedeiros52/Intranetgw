@@ -2,7 +2,7 @@ import { Component, OnInit} from '@angular/core';
 import { trigger, state, style, transition, animate } from '@angular/core';
 
 @Component({
-  selector: 'app-footer',
+  selector: 'app-footer' ,
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css'],
   animations: [
